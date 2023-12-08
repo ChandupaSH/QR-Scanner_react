@@ -28,6 +28,7 @@ function App() {
         delay={300}
         onError={handleError}
         onScan={handleScan}
+        facingMode="user"
       />}
       {result && <p>QR code scanned: {result.text}</p>}
     </div>
